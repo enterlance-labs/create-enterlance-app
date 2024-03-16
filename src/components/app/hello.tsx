@@ -10,7 +10,7 @@ export default function Hello() {
         <div className="font-unb font-bold text-3xl text-neutral-900">{`${process.env.NEXT_PUBLIC_SITENAME}`}</div>
         <div className="mt-4 font-medium text-neutral-700 m-auto">
           Данный сайт используется как шаблон для всех подпроектов компании
-          Enterlance, и находится в окрытом доступе для общего использования.
+          Enterlance, и находится в открытом доступе для общего использования.
         </div>
         <div className="w-full flex flex-row flex-wrap gap-2 mt-6 items-center">
           <Link href="https://enterlance.com" target="_blank" className="flex-grow">
