@@ -2,9 +2,9 @@
 Данный сайт используется как шаблон для всех подпроектов компании Enterlance, и находится в открытом доступе для общего использования.
 ## Начало
 ### Используемый стартовый стек
-JS-фреймворк: React
-Веб-фреймворк: [NextJS](https://nextjs.org/docs/getting-started/project-structure) (Pages Router)
-UI-фреймворки: [TailwindCSS](https://tailwindcss.com), [shadcn/ui](https://ui.shadcn.com/docs/installation/next)
+JS-фреймворк: React\
+Веб-фреймворк: [NextJS](https://nextjs.org/docs/getting-started/project-structure) (Pages Router)\
+UI-фреймворки: [TailwindCSS](https://tailwindcss.com), [shadcn/ui](https://ui.shadcn.com/docs/installation/next)\
 ### Запуск проекта
 Скачайте проект через терминал в корень своей папки
 
@@ -12,11 +12,11 @@ UI-фреймворки: [TailwindCSS](https://tailwindcss.com), [shadcn/ui](htt
 
 Чтобы собрать и запустить проект, установите все зависимости командой `npm install`. Если у вас не установлен Node.JS именно на компьютере, скачайте рекомендуемую версию [тут](https://nodejs.org/en).
 ## Настройка проекта
-**Иконка**
+**Иконка**\
 В папке `public` хранятся публичные файлы сайта, иконки, фавиконы и так далее. Если хотите поставить свою иконку, замените файл `favicon.ico` на свой.
-**Название**
+**Название**\
 В файле `.env.local` находится переменная `NEXT_PUBLIC_SITENAME`, измените название под ваше. Мы специально обернули название в переменную чтобы по нескольку раз не менять его в разных файлах.
-**Страницы**
+**Страницы**\
 В директории `src` находятся самые важные папки.
 1. **pages** - Отвечает за все страницы на сайте
 2. **components** - Все компоненты сайта, стартовый компонент находится по пути `/app/hello.tsx`
